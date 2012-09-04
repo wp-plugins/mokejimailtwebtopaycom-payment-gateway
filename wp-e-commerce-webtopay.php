@@ -1,5 +1,13 @@
 <?php
 
+  @include_once(WP_PLUGIN_DIR . "/wp-e-commerce/wpsc-includes/merchant.class.php");
+
+  /*
+  Plugin Name: WebToPay.com
+  Description: WebToPay.com payment plugin for wp-e-commerce
+  Version: 1.6
+  Author: Webtopay.com / Mokejimai.lt
+*/
     if (session_id() == "") session_start();
 
     $nzshpcrt_gateways[$num]['name']             = 'Webtopay.com / Mokejimai.lt';

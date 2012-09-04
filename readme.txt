@@ -23,8 +23,7 @@ To use this plugin, register at webtopay.com and create your project. You will g
 
 == Installation ==
 
-1. Copy entire wp-content directory to your wordpress page. This directory just overrides WebToPay
-plugin, but does not affect anything else, so it is safe to use.
+1. Use WP plugin installer or copy plugin folder to wp-content/plugins directory
 2. Go to admin panel and activate: Store > Settings > Payment Options:
     Check Webtopay checkbox    
     Don't forget to write your projectid and sign_password in the right sidebar. 
